@@ -31,7 +31,7 @@
         <div class="card">
             <div class="card-img">
                 <a href="<?php the_permalink(); ?>">
-                    <img src="<?php the_post_thumbnail()?>"
+                    <img src="<?php the_post_thumbnail()?>">
                 </a>
             </div>
             <div class="card-description">
@@ -62,7 +62,7 @@
    </main>
  </section>
    
-  <!----------------------------------------------------------- IDEAS -->
+ 
     <main>
         <a href="<?php echo site_url('/ideas')?>">
             <h2 class="section-heading">View All Ideas</h2>

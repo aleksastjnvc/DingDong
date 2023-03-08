@@ -181,7 +181,7 @@ nav ul {
 #slideout-menu{
     background: rgba(0, 0, 0, 0.6);
     display: none;
-    background: ;
+    background: green;
     z-index: 100;
     position: fixed;
     transition: 0.4s;
@@ -405,12 +405,16 @@ footer #social-media-footer ul li:hover a .fa-github{
 #blogpost{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
     border-left: 1px solid #999;
 }
 
 #blogpost .card{
     width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Sidebar */
@@ -423,7 +427,6 @@ footer #social-media-footer ul li:hover a .fa-github{
     font-weight: bold;
     /* box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.9); */
     box-shadow: inset 12px 9px 20px 1px rgba(0,0,0,0.9);
-    border-radius: 20px;
     text-align: center;
 }
 
@@ -436,7 +439,12 @@ footer #social-media-footer ul li:hover a .fa-github{
 }
 
 #sidebar li li {
+    
     margin-left: -16px;
+}
+
+#sidebar p {
+    background: white;
 }
 
 #sidebar input {
@@ -480,7 +488,7 @@ footer #social-media-footer ul li:hover a .fa-github{
 
 @media (max-width: 650px){
     main {
-        width: 100%;
+        width: 95%;
     }
 
     h1{
@@ -494,12 +502,16 @@ footer #social-media-footer ul li:hover a .fa-github{
 
     .card {
         text-align: center;
-        width: 100%;
+       
     }
 
     #logo-img{
         padding: 0;
         
+    }
+
+    #sidebar {
+        display: none;
     }
 }
 
@@ -521,9 +533,8 @@ footer #social-media-footer ul li:hover a .fa-github{
         display: none;
     }
 
-    #sidebar{
-        display: none;
-    }
+   
+    
 }
 
 @media(max-width: 719px){

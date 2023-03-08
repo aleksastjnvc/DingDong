@@ -1,5 +1,5 @@
-<br>
-<main>
+
+
     <footer>
     
 
@@ -42,9 +42,10 @@
                     <p>2023.</p>
                 </div>
             
-    </footer>
-</main>
+            </footer>
+        </main>
+ 
 <!-- bring the js file -->
 <?php wp_footer() ?>
-</body>
+    </body>
 </html>

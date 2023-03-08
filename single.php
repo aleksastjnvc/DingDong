@@ -1,4 +1,4 @@
-<?php wp_head() ?>
+<?php get_header() ?>
 
 
 
@@ -6,7 +6,7 @@
                 the_post();         
         ?>
 
-<main>
+
 <h2 class="page-heading"><?php the_title() ?></h2>
     <div id="post-container">
       <section id="blogpost">
@@ -30,6 +30,7 @@
           <div class="card-description">
             <?php the_excerpt() ?>
         </div>
+      </div>
 
         <?php } ?>
 
@@ -61,7 +62,7 @@
                     </ol>
                 </div>
 
-
+                            <!-- comments php from dmsecurity/satrain -->
 
     <?php } ?>
 
@@ -74,6 +75,7 @@
                                 <?php dynamic_sidebar('main_sidebar')?>
 
       </aside>
+    
 
     </div>
     

@@ -4,7 +4,7 @@
 
 <body>
 
-      <main>
+     
     
         
             <h2 class="section-heading"> Search Results For : <?php echo get_search_query() ?> </h2>

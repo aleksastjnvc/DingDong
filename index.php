@@ -4,8 +4,8 @@
 
 <body>
 
-      <main>
-    
+      
+ 
         
             <h2 class="section-heading">All Events</h2>
        
@@ -57,8 +57,7 @@
     
       
 
-</body>
-</html>
+
 
 <?php get_footer();?>
 
