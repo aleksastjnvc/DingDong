@@ -1,2 +1,2 @@
-# DingDong
-Custom WordPress theme.
+# WordPress DingDong Theme
+
