@@ -1,12 +1,12 @@
 <?php wp_head(); ?>
 <body>
 
-    <main>
-        
-            <h2 class="page-heading"><?php the_archive_title(); ?></h2>
+   
+         
+                <h2 class="page-heading"><?php the_archive_title(); ?></h2>
       
 
-        <section>
+                <section>
 
         <?php while(have_posts()) {
                 the_post();         
@@ -16,8 +16,8 @@
 
         <div class="card">
             <div class="card-img">
-                <a href="<?php the_permalink(); ?>">
-                    <img src="<?php the_post_thumbnail();?>">
+                <a href="<?php the_permalink() ?>">
+                    <img src="<?php the_post_thumbnail() ?>">
                 </a>
             </div>
             <div class="card-description">
@@ -49,8 +49,7 @@
    
       
 
-</body>
-</html>
+
 
 <?php get_footer();?>
 
