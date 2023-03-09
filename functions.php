@@ -74,6 +74,7 @@ add_action('init', 'dd_custom_post_type');
 
 // sidebar
 
+
 function dd_widgets() {
     register_sidebar(
         array(
@@ -86,11 +87,3 @@ function dd_widgets() {
 }
 
 add_action('widgets_init', 'dd_widgets');
-
-// function search_filter($query) {
-//     if($query->is_search()){
-//         $query->set('post_type', array('post', 'event'));
-//     }
-// }
-
-// add_filter('pre_get_posts', 'search');
