@@ -1,6 +1,6 @@
-<?php get_header() ?>
+<?php wp_head() ?>
 
-<p>this is single.php</p>
+<main>
 
 <?php while(have_posts()) {
                 the_post();         
