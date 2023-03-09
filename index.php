@@ -1,9 +1,6 @@
 <?php wp_head(); ?>
 
-
-
-<body>
-
+<main>
       
  
         
@@ -22,7 +19,8 @@
         <div class="card">
             <div class="card-img">
                             <a href="<?php the_permalink() ?>">
-                            <img src="<?php the_post_thumbnail() ?>">
+                            <img src="<?php the_post_thumbnail()?>">
+                            
                     </a>
             </div>
             <div class="card-description">
@@ -45,7 +43,7 @@
                 <a href="<?php the_permalink()?>" class="read-more-btn">Read More</a>
             </div>
         </div>
-
+  
         <?php } 
         wp_reset_query()?>    
 

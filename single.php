@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-
+<p>this is single.php</p>
 
 <?php while(have_posts()) {
                 the_post();         
@@ -15,13 +15,15 @@
             <h3>
             Posted by <?php the_author() ?> on <?php the_time('F j, Y') ?> 
          
+              <h2>
             <?php
 
                 if(get_post_type() == 'post') { ?>
-                   in <a href="<?php echo get_the_category_list() ?>"></a> 
+                      in <br><br>
+                    <a href="<?php echo get_the_category_list() ?>"></a> 
 
             <?php } ?>
-
+                </h2>
             </h3>
           </div>
           <div class="card-img">

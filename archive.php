@@ -1,7 +1,7 @@
 <?php wp_head(); ?>
 <body>
 
-   
+ <main>
          
                 <h2 class="page-heading"><?php the_archive_title(); ?></h2>
       
@@ -41,13 +41,13 @@
         <?php } 
         wp_reset_query()?>    
 
-            </section>
+        
 
             <div class="pagination"></div>
             <?php echo paginate_links();?>
             </div>
    
-      
+            </section>
 
 
 
