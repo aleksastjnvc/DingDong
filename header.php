@@ -41,7 +41,9 @@
         </nav>
 
         <div id="searchbox">
-            <input type="text" name="" placeholder="Search here...">
+            <form method="get" action="<?php echo home_url() ?>">
+            <input type="text" name="" placeholder="Search here..." value="<?php get_search_query(); ?>">
+            <form>
         </div>
         
         <div id="banner">
