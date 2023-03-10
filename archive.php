@@ -1,12 +1,11 @@
 <?php wp_head(); ?>
 <body>
-
- <main>
+        <main>
          
                 <h2 class="page-heading"><?php the_archive_title(); ?></h2>
       
 
-                <section>
+    <section>
 
         <?php while(have_posts()) {
                 the_post();         
@@ -39,17 +38,12 @@
         </div>
 
         <?php } 
-        wp_reset_query()?>    
-
-        
+        wp_reset_query() ?>    
 
             <div class="pagination"></div>
             <?php echo paginate_links();?>
             </div>
    
-            </section>
-
-
-
+    </section>
 <?php get_footer();?>
 
