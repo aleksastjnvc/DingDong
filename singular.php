@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<p>Content soon.</p>
+<p>Contact Page</p>
 
 <?php get_footer() ?>
 

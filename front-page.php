@@ -30,8 +30,11 @@
 
         <div class="card">
             <div class="card-img">
-                <a href="<?php the_permalink(); ?>">
-                    <img src="<?php the_post_thumbnail()?>">
+                <a href="<?php the_permalink() ?>">
+
+                    
+                    <img src=" <?php the_post_thumbnail() ?> " alt="">
+              
                 </a>
             </div>
             <div class="card-description">

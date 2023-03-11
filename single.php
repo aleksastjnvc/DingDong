@@ -46,23 +46,23 @@
 
             ?>
        
-                <div class="comments">
+                <!-- <div class="comments">
                     <h3>What people say</h3>
                     <ol class="all-comments">
                         <?php 
-                            $comments = get_comments(
-                                array(
-                                    'post_id' => $post->ID,
-                                    'status' => 'approve',
-                                ));
+                            // $comments = get_comments(
+                            //     array(
+                            //         'post_id' => $post->ID,
+                            //         'status' => 'approve',
+                            //     ));
                                 
-                                wp_list_comments(array(
-                                    'per_page' => -1,
-                                ), $comments
-                            );
+                            //     wp_list_comments(array(
+                            //         'per_page' => -1,
+                            //     ), $comments
+                            // );
                         ?>
                     </ol>
-                </div>
+                </div> -->
 
                             <!-- comments php from dmsecurity/satrain -->
 

@@ -9,7 +9,7 @@
                             <ul>
                                 <li><a href="<?php echo site_url('')?>">Home</a></li>
                                 <li><a href="<?php echo site_url('/about')?>">About</a></li>
-                                
+                                <li><a href="<?php echo site_url('/contact')?>">Contact</a></li>
                                 <li><a href="<?php echo site_url('/event')?>">Events</a></li>
                                 <li><a href="<?php echo site_url('/ideas')?>">Ideas</a></li>
                               

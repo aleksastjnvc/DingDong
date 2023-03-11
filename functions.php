@@ -9,6 +9,11 @@ function enqueue_styles_and_scripts(){
     wp_register_style('maincss', get_template_directory_uri() . '/assets/css/main.css', array(), $ver, 'all');
     wp_enqueue_style('maincss');
 
+    if(is_page('contact')) {
+        wp_register_style('contact', get_template_directory_uri() . '/assets/css/contact.css', array(), $ver, 'all');
+        wp_enqueue_style('contact');
+    }
+
     wp_register_script('mainjs', get_template_directory_uri() . '/assets/js/main.js', array(), $ver, 'all');
     wp_enqueue_script('mainjs');
 
