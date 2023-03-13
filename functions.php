@@ -10,12 +10,20 @@ function enqueue_styles_and_scripts(){
     wp_enqueue_style('maincss');
 
     if(is_page('contact')) {
+        $ver = '1.0.0';
+        
         wp_register_style('contact', get_template_directory_uri() . '/assets/css/contact.css', array(), $ver, 'all');
         wp_enqueue_style('contact');
+
+        wp_register_script('contactjs', get_template_directory_uri() . '/assets/js/contact.js', array(), $ver, 'all');
+        wp_enqueue_script('contactjs');
     }
 
+    if(!is_page('contact')) {
     wp_register_script('mainjs', get_template_directory_uri() . '/assets/js/main.js', array(), $ver, 'all');
     wp_enqueue_script('mainjs');
+    }
+ 
 
 }
 
