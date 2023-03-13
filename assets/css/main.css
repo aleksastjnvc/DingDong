@@ -480,6 +480,20 @@ footer #social-media-footer ul li:hover a .fa-github{
 
 .pagination{
     margin: 0 auto;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.pagination,
+ span.page-numbers.current{
+    font-size: 1.7em;
+}
+
+.pagination a{
+    font-size: 1.2em;
+    color: black;
 }
 
 /* index ends */
@@ -492,11 +506,11 @@ footer #social-media-footer ul li:hover a .fa-github{
     }
 
     h1{
-        font-size: 48px;
+        font-size: 28px;
     }
 
     #banner h3{
-        font-size: 25px;
+        font-size: 18px;
         
     }
 
@@ -543,6 +557,10 @@ footer #social-media-footer ul li:hover a .fa-github{
 }
 
 @media(max-width: 719px){
+
+    h1{
+        font-size: 48px;
+    }
 
     main {
         width: 95%;
