@@ -19,15 +19,15 @@
             <?php
 
                 if(get_post_type() == 'post') { ?>
-                      in <br><br>
-                    <a href="<?php echo get_the_category_list() ?>"></a> 
+                      in 
+                    <a href="<?php echo get_the_category_list() ?> </a> 
 
             <?php } ?>
                 </h2>
             </h3>
           </div>
           <div class="card-img">
-            <img src="<?php the_post_thumbnail() ?> " >
+            <img src="<?php the_post_thumbnail() ?>
           </div>
           <div class="card-description">
             <?php the_excerpt() ?>

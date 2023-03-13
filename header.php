@@ -1,5 +1,15 @@
 <?php wp_head() ?>
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
 <body>
+    
+
 
          <!-- FOR MOBILE VIEW -->
          <div id="slideout-menu">
@@ -9,6 +19,7 @@
                 <li><a href="<?php echo site_url('/event')?>">Events</a></li>
                 <li><a href="<?php echo site_url('/ideas')?>">Ideas</a></li>
                 <li><a href="<?php echo site_url('/about')?>">About</a></li>
+                <li><a href="<?php echo site_url('/contact')?>">Contact</a></li>
                 <li>
                   <input type="text" placeholder="Search here...">
             
@@ -31,6 +42,7 @@
                 <li><a href="<?php echo site_url('/event')?>">Events</a></li>
                 <li><a href="<?php echo site_url('/ideas')?>">Ideas</a></li>
                 <li><a href="<?php echo site_url('/about')?>" <?php if(is_page('about')) echo 'class="active"'?> >About</a></li>
+                <li><a href="<?php echo site_url('/contact')?>">Contact</a></li>
                 <li>
                     <div id="search-icon">
                         <i class="fas fa-search"></i>
