@@ -1,11 +1,12 @@
 <?php /* Template Name: Kontakt Template */
-wp_head() ?>
+wp_head()
+?>
 
-
+<main>
 <div class="container">  
   <form id="contact" action="" method="post">
-    <h3>Contact Us</h3>
-    <h4>Contact us for custom quote</h4>
+    <h2>Contact Us</h2>
+    <h3>Become our member & say something nice ! </h3>
     <fieldset>
       <input placeholder="Your name" type="text" tabindex="1" required autofocus>
     </fieldset>
@@ -13,10 +14,10 @@ wp_head() ?>
       <input placeholder="Your Email Address" type="email" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" >
     </fieldset>
     <fieldset>
-      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" >
     </fieldset>
     <fieldset>
       <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
