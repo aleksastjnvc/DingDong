@@ -16,7 +16,7 @@
         <div class="card">
             <div class="card-img">
                 <a href="<?php the_permalink() ?>">
-                    <img src="<?php the_post_thumbnail() ?>">
+                    <img src="<?php the_post_thumbnail() ?>
                 </a>
             </div>
             <div class="card-description">
