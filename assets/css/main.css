@@ -58,7 +58,7 @@ textarea:focus{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.2) url(../img/potential_banner3.gif);
+    background: rgba(0, 0, 0, 0.7) url(../img/potential_banner3.gif);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -181,7 +181,7 @@ nav ul {
 #slideout-menu{
     background: rgba(0, 0, 0, 0.6);
     display: block;
-    background: green;
+    background: black;
     z-index: 100;
     position: fixed;
     transition: 0.4s;
@@ -486,7 +486,7 @@ footer #social-media-footer ul li:hover a .fa-github{
 
 /* media queries */
 
-@media (max-width: 650px){
+@media (max-width: 600px){
     main {
         width: 95%;
     }
@@ -509,20 +509,16 @@ footer #social-media-footer ul li:hover a .fa-github{
         padding: 0;
         
     }
-
-    #sidebar {
-        display: none;
-    }
 }
 
 @media (max-width: 900px){
 
     nav ul {
-        display: none;
+        display: none !important;
     }
 
     #menu-icon {
-        display: flex;
+       display: flex;
     }
 
     #slideout-menu {
@@ -530,12 +526,17 @@ footer #social-media-footer ul li:hover a .fa-github{
     }
 
     #searchbox {
-        display: none;
+        display: none !important;
     }
 
-    #search-icon{
-        display: none;
-    }
+   #blogpost {
+        width: 100%;
+        border-left: 0;
+   }
+
+   #sidebar{
+    display: none;
+   }
 
    
     
@@ -552,7 +553,7 @@ footer #social-media-footer ul li:hover a .fa-github{
     }
 
     .card,
-    .card .card-image img{
+    .card .card-img img{
         width: 100%;
     }
 
@@ -577,9 +578,7 @@ footer #social-media-footer ul li:hover a .fa-github{
     }
      
     .card .card-img img{
-        width:  400px;
-        max-width: 90%;
-
+       width: 100%;
     }
 }
 
